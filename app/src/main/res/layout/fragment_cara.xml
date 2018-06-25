@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="studio.emcorp.hafizhafizah.Fragment.CaraFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cara bermain :\n1. Pilih menu pilih karakter\n2. Pilih salah satu karakter hafiz atau hafizah sebagai pembacanya\n3. Pilih salah satu nama surat  al-qur’an yang ingin ditampilkan\n4. Pilih tombol menu full atau tajwid\n6. Jika pilih tombol menu full, maka menampilkan dan mengeluarkan suara bacaan surat yang sudah dipilih secara keseluruhan\n7. Jika pilih tombol tajwid,maka menampilkan dan mengeluarkan suara tajwid pada setiap kalimat bacaan surat, setiap tajwid memiliki warna yang berbeda sesuai tajwid yamg digunakan."
+            android:textSize="18sp"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:textColor="#0000CD"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SELAMAT MEMBACA AL-QUR’AN 😊"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#0000CD"/>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="studio.emcorp.hafizhafizah.Fragment.TentangFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Hafiz dan hafizah qur’an dengan tajwid ini adalah sebuah aplikasi tentang Al-Qur’an dengan tajwid. Aplikasi ini bertujuan untuk mengajarkan kepada anak-anak tentang al-qur’an dengan tajwid. Selain pembelajaran al-qur’an dengan tajwid ada kelebihan lain yaitu dapat memilih karakter sesuai yang di inginkan sebagai pembaca al-qur’an dan tajwidnya agar dapat memahami dan mempelajari cara pengucapan dan pembacaan ayat al-qur’an sesuai dengan tajwid yang digunakan."
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#0000CD"/>
+
+</FrameLayout>
